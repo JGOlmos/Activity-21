@@ -1,0 +1,113 @@
+.inline-block {
+    display:inline-block;
+    vertical-align: top;
+  }
+
+.logo{
+    width: 23%;
+    padding: 1px;
+    vertical-align: top;
+}
+
+.logoimage{
+    height: 18vh;
+}
+
+.logotext{
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    font-size: 24px;
+    color: #40075B;
+    vertical-align: center;
+    padding-top: 50px;
+}
+
+nav {
+    width: 75%;
+    margin-left: auto;
+    text-align: right;
+    font-family: 'ClassyBrune';
+    vertical-align: center;
+    padding-top: 30px;
+}
+
+ul {
+    width: auto;
+    margin-left: auto;
+    list-style: none;
+}
+
+.navlist{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.navHover:hover{
+    color: #AC8887;
+    border-bottom: 3px solid #AC8887;
+}
+
+.background_img{
+    background-image: url(images/homescreen.jpg)
+    background-repeat: no-repeat;
+    border: 1px solid red;
+    height: 99vh;
+}
+
+.workgrid{
+    display: grid;
+    height: 80vh;
+    grid-template-rows: 40% 20% 30%;
+    grid-template-areas: 
+    'toprow'
+    'secondrow'
+    'thirdrow';
+}
+
+.toprow{
+    border: 7px solid gray;
+    grid-area: toprow;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+}
+
+.secondrow{
+    border: 7px solid gray;
+    grid-area: secondrow;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.thirdrow{
+    border: 7px solid gray;
+    grid-area: thirdrow;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+
+h1{
+    font-size: 50;
+    color: cadetblue;
+    align-items: center;
+    align-content: center;
+}
+
+p{
+    font-size: 20;
+    align-items: center;
+    align-content: center;
+}

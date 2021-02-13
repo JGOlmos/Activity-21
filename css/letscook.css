@@ -1,0 +1,87 @@
+.inline-block {
+    display:inline-block;
+    vertical-align: top;
+  }
+
+.logo{
+    width: 23%;
+    padding: 1px;
+    vertical-align: top;
+}
+
+.logoimage{
+    height: 18vh;
+}
+
+.logotext{
+    font-family: 'ClassyBrune';
+    font-weight: normal;
+    font-size: 24px;
+    color: #40075B;
+    vertical-align: center;
+    padding-top: 50px;
+}
+
+nav {
+    width: 75%;
+    margin-left: auto;
+    text-align: right;
+    font-family: 'ClassyBrune';
+    vertical-align: center;
+    padding-top: 30px;
+}
+
+ul {
+    width: auto;
+    margin-left: auto;
+    list-style: none;
+}
+
+.navlist{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.navHover:hover{
+    color: #AC8887;
+    border-bottom: 3px solid #AC8887;
+}
+
+.LevelGridContainer{
+    display: grid;
+    height: 50vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    'beginners  intermediate'
+    'beginners  expert';
+}
+
+.beginners{
+    background-color: lightyellow;
+    border: 2px solid black;
+    grid-area: beginners;
+}
+
+.intermediate{
+    background-color: lightyellow;
+    border: 2px solid black;
+    grid-area: intermediate;
+}
+
+.expert{
+    background-color: lightyellow;
+    border: 2px solid black;
+    grid-area: expert;
+}
+
+.textbackground{
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: flex-end;
+    bottom: 10px;
+    padding: 20px;
+}
