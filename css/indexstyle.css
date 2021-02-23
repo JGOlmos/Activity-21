@@ -51,16 +51,14 @@ ul {
 }
 
 .background_img{
-    background-image: url(images/homescreen.jpg)
+    background-image: url("../images/backgroundspoons@2x.png");
     background-repeat: no-repeat;
-    border: 1px solid red;
-    height: 99vh;
 }
 
 .workgrid{
     display: grid;
     height: 80vh;
-    grid-template-rows: 40% 20% 30%;
+    grid-template-rows: 40% 10% 40%;
     grid-template-areas: 
     'toprow'
     'secondrow'
@@ -68,7 +66,7 @@ ul {
 }
 
 .toprow{
-    border: 7px solid gray;
+    /* border: 7px solid gray; */
     grid-area: toprow;
     align-items: center;
     align-content: center;
@@ -79,7 +77,7 @@ ul {
 }
 
 .secondrow{
-    border: 7px solid gray;
+    /* border: 7px solid gray; */
     grid-area: secondrow;
     align-items: center;
     align-content: center;
@@ -89,7 +87,7 @@ ul {
 }
 
 .thirdrow{
-    border: 7px solid gray;
+    /* border: 7px solid gray; */
     grid-area: thirdrow;
     align-items: center;
     align-content: center;
