@@ -50,7 +50,11 @@ ul {
     border-bottom: 3px solid #AC8887;
 }
 
-.background_img{
+img{
+    width: 100%;
+}
+
+body{
     background-image: url("../images/backgroundspoons@2x.png");
     background-repeat: no-repeat;
 }
@@ -73,7 +77,6 @@ ul {
     justify-content: center;
     text-align: center;
     height: 100%;
-}
 }
 
 .secondrow{

@@ -50,6 +50,15 @@ ul {
     border-bottom: 3px solid #AC8887;
 }
 
+img{
+    width: 100%;
+}
+
+body{
+    background-image: url("../images/background20percent.png");
+    background-repeat: no-repeat;
+}
+
 .LevelGridContainer{
     display: grid;
     height: 50vh;
@@ -61,19 +70,22 @@ ul {
 }
 
 .beginners{
-    background-color: lightyellow;
+    background-image: url(../images/beginner.png);
+    background-repeat: no-repeat;
     border: 2px solid black;
     grid-area: beginners;
 }
 
 .intermediate{
-    background-color: lightyellow;
+    background-image: url(../images/intermediate1.png);
+    background-repeat: no-repeat;
     border: 2px solid black;
     grid-area: intermediate;
 }
 
 .expert{
-    background-color: lightyellow;
+    background-image: url(../images/expert1.png);
+    background-repeat: no-repeat;
     border: 2px solid black;
     grid-area: expert;
 }
