@@ -59,17 +59,7 @@ body{
     background-repeat: no-repeat;
 }
 
-.workgrid{
-    display: grid;
-    height: 80vh;
-    grid-template-rows: 40% 10% 40%;
-    grid-template-areas: 
-    'toprow'
-    'secondrow'
-    'thirdrow';
-}
-
-.toprow{
+.welcome{
     /* border: 7px solid gray; */
     grid-area: toprow;
     align-items: center;
@@ -77,27 +67,9 @@ body{
     justify-content: center;
     text-align: center;
     height: 100%;
+    padding: 50px 200px;
 }
 
-.secondrow{
-    /* border: 7px solid gray; */
-    grid-area: secondrow;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-}
-
-.thirdrow{
-    /* border: 7px solid gray; */
-    grid-area: thirdrow;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-}
 
 
 h1{
@@ -112,3 +84,15 @@ p{
     align-items: center;
     align-content: center;
 }
+
+.card{
+    padding: 20px;
+    margin: 40px;
+    border-radius: 4px;
+    border: none
+}
+
+.btn-primary{
+    background-color:lightgray;
+}
+

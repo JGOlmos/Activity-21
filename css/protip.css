@@ -57,3 +57,7 @@ body{
     background-image: url("../images/background20percent.png");
     background-repeat: no-repeat;
 }
+
+.btn{
+    background-color: lightgray;
+}
