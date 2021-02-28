@@ -96,4 +96,6 @@ body{
     text-align: flex-end;
     bottom: 10px;
     padding: 20px;
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
 }
